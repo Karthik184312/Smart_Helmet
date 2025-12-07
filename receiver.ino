@@ -16,8 +16,8 @@ HardwareSerial Gps(2);
 String loc = "";
 
 // WiFi details
-const char* ssid = "Lalitha";
-const char* password = "sumukha193";
+const char* ssid = "vivo";
+const char* password = "01234567";
 
 // --------------- Data Structure ---------------
 typedef struct struct_message {
@@ -105,3 +105,4 @@ void loop() {
 
   Blynk.run();
 }
+
